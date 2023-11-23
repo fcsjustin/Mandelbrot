@@ -23,7 +23,7 @@ int main()
 
     // Construct the Font and Text objects
     sf::Font font;
-    if (!font.loadFromFile("arial.ttf"))
+    if (!font.loadFromFile("BebasNeue-Regular.ttf"))
     {
         cerr << "Error loading font." << endl;
         return -1;
