@@ -31,7 +31,7 @@ int main()
 
     sf::Text text;
     text.setFont(font);
-    text.setCharacterSize(20);
+    text.setCharacterSize(25);
     text.setFillColor(sf::Color::White);
 
     // Begin the main loop
@@ -72,11 +72,11 @@ int main()
             }
         }
 
-        
+        // Update Scene segment
         complexPlane.updateRender();
         complexPlane.loadText(text);
 
-       
+        // Draw Scene segment
         window.clear();
         window.draw(complexPlane);
         window.draw(text);
